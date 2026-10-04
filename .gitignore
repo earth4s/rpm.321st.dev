@@ -1,0 +1,11 @@
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+*.swp
+
+# Local dependencies and temporary build output
+node_modules/
+.cache/

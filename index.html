@@ -1,91 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>321st RPM Repository</title>
-
-    <meta name="description" content="321st RPM package repository">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #222;
-            background-color: #f8f9fa;
-        }
-
-        header {
-            border-bottom: 1px solid #ccc;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            margin-bottom: 5px;
-        }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ccc;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>321st RPM Repository</title>
+  <meta name="description" content="321st RPM package repository">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
-
 <body>
-
-<header>
+  <header>
     <h1>321st RPM Repository</h1>
     <p>RPM packages hosted with GitHub Pages.</p>
-</header>
-
-<main>
-
+    <nav aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="packages/">Packages</a>
+      <a href="https://github.com/earth4s/rpm.321st.dev">Source on GitHub</a>
+    </nav>
+  </header>
+  <main>
     <h2>Available Packages</h2>
-
-    <p>
-        Browse the repository files or configure this repository
-        as a package source.
-    </p>
-
-    <ul>
-        <li>
-            <a href="./packages/">
-                Packages
-            </a>
-        </li>
-
-        <li>
-            <a href="./repodata/">
-                Repository Metadata
-            </a>
-        </li>
-    </ul>
-
+    <p><a href="./packages/">Browse available packages</a>.</p>
     <h2>Repository URL</h2>
-
-    <pre>https://rpm.321st.dev/</pre>
-
-</main>
-
-<footer>
-    <p>rpm.321st.dev</p>
-</footer>
-
+    <pre><code>https://rpm.321st.dev/</code></pre>
+    <p>Package downloads and installation instructions will appear here as packages are published.</p>
+    <p class="notice">This site is being prepared. DNF/YUM repository metadata is not available yet.</p>
+  </main>
+  <footer><p>rpm.321st.dev &middot; <span data-year>2026</span></p></footer>
 </body>
 </html>
